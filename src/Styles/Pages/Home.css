@@ -1,0 +1,76 @@
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card-item{
+    background-color: var(--second-color);
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card-image-container{
+    background-color: dimgrey;
+    height: 250px;
+    width: 250px;
+}
+
+.card-image-container img{
+    object-fit: contain;
+    width: 100%;
+    height: 250px;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-price{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card-btn{
+    margin-top: 20px;
+}
+
+hr{
+    height: 2px;
+    width: 100%;
+    color: gray;
+}
+
+.card-img{
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.fund-people-input{
+    display: flex;
+}
+
+.fund-people-field{
+    align-self: flex-start;
+    overflow-y: scroll;
+    width: 100%;
+    height: 300px;
+}
+
+.fund-people-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.fund-raiser-name{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
